@@ -1,0 +1,63 @@
+<html lang="en">
+  <head>
+    <title>good-vibes-form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+     <h1 id="firstheading">Good Vibes Form</h1>
+      <form id="form">
+        <h3>Tell us something positive that happened to you today.</h3>
+          <table id="table">
+             <tr>
+               <td class="name">Name</td>
+               <td><input id="the" type="text" placeholder="Enter you name"></td>
+             </tr>
+             <tr>
+               <td id="email">Email</td>
+               <td><input id="the" type="email" placeholder="Enter your email address"></td>
+             </tr>
+             <tr>
+               <td id="scale">On a scale of 1-10, how good was it?</td>
+               <td><input id="the" type="number" placeholder="Enter a number between 1 and 10"></td>
+             </tr>
+             <tr>
+               <td id="place">Where did it happen?</td>
+               <td><select id="location">
+               <option value="home">At home</option>
+               <option value="university">At the university</option>
+               <option value="work">At work</option>
+               <option value="other">Other</option>
+             </select></td>
+             </tr>
+             <tr>
+               <td id="time">At what time of day did it happen?</td>
+               <td><br> <br><input type="radio" name="time">Morning <br>
+               <input type="radio" name="time">Afternoon <br>
+               <input type="radio" name="time">Evening <br> 
+             </td>
+            </tr>
+            <tr>
+              <td id="emotions">What emotions did you experience? <br>(Select all that apply)</td>
+              <td> <br> <br> <br>
+              <input type="checkbox" name="excited">Excited <br>
+              <input type="checkbox" name="humbled">Humbled <br>
+              <input type="checkbox" name="elated">Humbled <br>
+              <input type="checkbox" name="loved">Loved <br>
+              <input type="checkbox" name="enthusiastic">Enthusiastic <br>
+              </td>
+            </tr>
+            <tr>
+              <td id="experience">Please describe your positive experience.</td>
+           
+              <td><textarea name="experience" cols="40" rows="6"   placeholder="Enter your experience here..."></textarea></td>
+            </tr>
+          </table>
+        <button class="button">Submit</button>
+      </form>
+      
+    </main>
+    
+  </body>
+  
+</html>

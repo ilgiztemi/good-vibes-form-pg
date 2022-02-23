@@ -1,0 +1,64 @@
+body {
+    background-image: url(https://images.pexels.com/photos/7945340/pexels-photo-7945340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    height: 100%;
+  }
+  form{
+    background-color: #c9d1d1;
+    padding-left: 66px;
+  }
+   .button{
+     background-color: #cef2f1;
+     margin-left: 340px;
+     margin-bottom: 20px;
+  }
+  #experience {
+    vertical-align: top;
+  }
+  #firstheading {
+    text-align: center;
+    font-style: italic;
+    color: #749998;
+  }
+  h3 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+  .name {
+    padding-left: 215px;
+  }
+  #email {
+    padding-left: 215px;
+  }
+  table {
+    margin: 20px;
+  }
+  tr td {
+    padding: 7px;
+  
+  }
+  #scale {
+    padding-left: 20px;
+  }
+  #place {
+    padding-left: 120px;
+  }
+  #time {
+    padding-left: 40px;
+  }
+  #emotions {
+    padding-left: 30px;
+  }
+  #form {
+    background-image: url("https://images.pexels.com/photos/9061055/pexels-photo-9061055.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    height: 100%;
+    background-image: cover;
+    background-position: center;
+    color: #39bcd4;
+    font-style: bold;
+  }
+  #the {
+    padding-right: auto;
+    text-align:
+  }
